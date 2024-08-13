@@ -1,0 +1,88 @@
+/* components/Popup.module.scss */
+
+$primary-color: #ff4d4f;
+$secondary-color: #595959;
+$background-color: #fff;
+$border-color: #e5e5e5;
+$border-radius: 8px;
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+//   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popupContent {
+  background: $background-color;
+  padding: 20px;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($primary-color, 0.1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 16px auto;
+}
+
+.icon {
+  color: $primary-color;
+  font-size: 24px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: $secondary-color;
+}
+
+.message {
+  font-size: 14px;
+  color: $secondary-color;
+  margin-bottom: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancelButton {
+  background-color: transparent;
+  border: 1px solid $border-color;
+  padding: 8px 16px;
+  border-radius: $border-radius;
+  cursor: pointer;
+  color: $secondary-color;
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+.deleteButton {
+  background-color: $primary-color;
+  border: none;
+  padding: 8px 16px;
+  border-radius: $border-radius;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}

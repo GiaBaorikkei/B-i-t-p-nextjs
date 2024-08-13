@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #0056d2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+    .navItem {
+      margin-right: 20px;
+  
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  
+    .active a {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+  
+  .userIcon img {
+    height: 30px;
+  }
+  

@@ -1,0 +1,37 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+  }
+  
+  .pageItem {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+    font-size: 14px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .pageItem:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .active {
+    background-color: #0070f3;
+    color: white;
+    border-color: #0070f3;
+  }
+  
+  .ellipsis {
+    margin: 0 5px;
+    color: #999;
+  }
+  
