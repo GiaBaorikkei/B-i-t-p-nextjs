@@ -53,6 +53,10 @@
     text-decoration: none;
   }
   
+  .flex {
+    display: flex;
+    gap: 140px;
+  }
   .errorMessage {
     color: #e53e3e;
     font-size: 12px;

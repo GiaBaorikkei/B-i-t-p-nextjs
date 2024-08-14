@@ -18,7 +18,7 @@ export default function Bai4() {
             />
           </div>
           <div className={style.formGroup}>
-            <div className='flex '>
+            <div className={style.flex}>
             <label className={style.label} htmlFor="password">Password</label>
                 <a href="#" className={style.forgotPassword}>Forgot Password</a>
             </div>

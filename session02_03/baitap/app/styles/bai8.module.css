@@ -9,6 +9,9 @@
   }
   
   .pageItem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     margin: 0 5px;
     padding: 8px 12px;
     background-color: white;
