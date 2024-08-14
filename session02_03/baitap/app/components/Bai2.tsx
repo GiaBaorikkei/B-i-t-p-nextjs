@@ -5,7 +5,7 @@ import { FcCollapse } from "react-icons/fc";
 
 export default function Bai2() {
   return (
-    <div>
+    <div className='flex justify-center '>
         <div className="w-64 p-2 border border-gray-300 rounded-md">
     <div className="flex items-center border-b border-gray-300">
         <span className="mr-2"><LuAlarmClock /></span>
