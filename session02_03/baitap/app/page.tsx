@@ -7,6 +7,8 @@ import Bai5 from './components/Bai5'
 import Bai6 from './components/Bai6'
 import Bai7 from './components/Bai7'
 import Bai8 from './components/Bai8'
+import Bai9 from './components/Bai9'
+import Bai10 from './components/Bai10'
 
 export default function page() {
   return (
@@ -19,6 +21,8 @@ export default function page() {
       <Bai6></Bai6>
       <Bai7></Bai7>
       <Bai8></Bai8>
+      <Bai9></Bai9>
+      <Bai10></Bai10>
     </div>
   )
 }

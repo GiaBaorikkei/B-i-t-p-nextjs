@@ -20,7 +20,7 @@ export default function Bai2() {
     </div>
     <div className="py-2">
         <label className="flex items-center space-x-2 cursor-pointer">
-            <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-500" checked />
+            <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-500"/>
             <span>Label</span>
         </label>
         <label className="flex items-center space-x-2 cursor-pointer">
@@ -28,11 +28,11 @@ export default function Bai2() {
             <span>Label</span>
         </label>
         <label className="flex items-center space-x-2 cursor-pointer">
-            <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-500" />
+            <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-500"/>
             <span>Label</span>
         </label>
         <label className="flex items-center space-x-2 cursor-pointer">
-            <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-500" checked />
+            <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-500"/>
             <span>Label</span>
         </label>
     </div>

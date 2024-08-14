@@ -10,7 +10,7 @@ export default function Bai8() {
       <button className={style.pageItem}><IoMdArrowBack /> Prev</button>
       <button className={style.pageItem}>1</button>
       <button className={style.pageItem}>2</button>
-      <button className={`${style.pageItem} ${style.active}`}>3</button>
+      <button className={style.pageItem}>3</button>
       <button className={style.pageItem}>4</button>
       <button className={style.pageItem}>5</button>
       <button className={style.pageItem}>6</button>

@@ -27,11 +27,11 @@
     background-color: #e2e2e2;
   }
   
-  .active {
+  /* .active {
     background-color: #0070f3;
     color: white;
     border-color: #0070f3;
-  }
+  } */
   
   .ellipsis {
     margin: 0 5px;
